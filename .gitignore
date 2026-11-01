@@ -1,0 +1,33 @@
+# ---- Go build artifacts ----
+# Compiled binaries (go build output)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary produced by `go test -c`
+*.test
+
+# Coverage / profiling output
+*.out
+*.prof
+
+# Go workspace files (used for multi-module dev; not needed yet)
+go.work
+go.work.sum
+
+# ---- Secrets / local config ----
+# Never commit real credentials. Keep a committed .env.example instead.
+.env
+*.local
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
